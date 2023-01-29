@@ -16,6 +16,10 @@ import { PageCarListComponent } from './page-car-list/page-car-list.component';
 import {MatCardModule} from "@angular/material/card";
 import {MatTableModule} from "@angular/material/table";
 import {CarService} from "./car-service/car.service";
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {MatInputModule} from "@angular/material/input";
+import {MatSelectModule} from "@angular/material/select";
+import {FormsModule} from "@angular/forms";
 
 // JSON - JavaScript Object Notation
 // {
@@ -39,7 +43,11 @@ import {CarService} from "./car-service/car.service";
     MatButtonModule,
     RouterOutlet,
     MatCardModule,
-    MatTableModule
+    MatTableModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatSelectModule,
+    FormsModule
   ],
   providers: [
     CarService
